@@ -14,7 +14,7 @@ int main () {
 	char a;
 	system("clear");
 	cout<<"Press any key to continue...";
-	while (cin>>a && a != 'N'){
+	while (cin>>a && a != 'N' || a != 'n'){
 		ran = rand() % nu;
 		cout<<names[ran]<<endl;
 		cout<<"Do you want another name? (Y/N) ";
